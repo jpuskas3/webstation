@@ -35,7 +35,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid blue;
+  border: 5px solid grey;
   border-radius: 10px;
   box-sizing: border-box;
   overflow-x: scroll;
@@ -45,9 +45,9 @@ html, body {
 .header button {
   margin: 0 5%;
   padding: 10px 20px;
-  background-color: black;
+  background-color: gold;
   color: black;
-  border: 2px solid gold;
+  border: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
   float: left;
