@@ -71,7 +71,7 @@ html, body {
   position: fixed;
   top: 60px; /* Place sidebar directly below the header */
   left: 0;
-  bottom: 5px;
+  bottom: 0px;
   overflow: hidden;
 }
 
@@ -100,7 +100,7 @@ html, body {
   position: fixed;
   top: 60px; /* Place sidebar directly below the header */
   right: 0;
-  bottom: 5px;
+  bottom: 0px;
   overflow: hidden;
 }
 
@@ -143,7 +143,7 @@ iframe {
 /* Main Content Area */
 .main {
   width: calc(100vw - 30vw);
-  height: calc(100vh - 55px);
+  height: auto/*calc(100vh - 55px)*/;
   margin: 0 auto;
   display: flex;
   justify-content: center;
