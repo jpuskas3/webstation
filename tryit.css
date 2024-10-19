@@ -21,6 +21,8 @@ html, body {
   border: 5px solid black;
   border-radius: 10px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1000; /* Ensure it stays on top */
 }
 
 .header button {
@@ -48,10 +50,9 @@ html, body {
   border: 5px solid black; /* 5px black border */
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
-  position: fixed;
-  top: 55px; /* Place sidebar directly below the header */
-  left: 0;
-  overflow: hidden;
+  position: relative;
+  z-index: 500;
+  flex-shrink: 0;
 }
 
 .sidebar-content {
@@ -75,10 +76,9 @@ html, body {
   border: 5px solid black; /* 5px black border */
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
-  position: fixed;
-  top: 55px; /* Place sidebar directly below the header */
-  right: 0;
-  overflow: hidden;
+  position: relative;
+  z-index: 500;
+  flex-shrink: 0;
 }
 
 .sidebar-content {
@@ -103,16 +103,6 @@ button.sidebar-content {
   margin-top: 10%;
   margin-bottom: 10%;
   top: 10%;
-
-}
-
-/* Ensure iframe fits within the borders of its body div */
-iframe {
-  width: 100%; /* Fill the full width of the parent div */
-  height: 100%; /* Fill the full height of the parent div */
-  border: none; /* Remove iframe's default border */
-  border-radius: 10px; /* Match the rounded border of the parent div */
-  box-sizing: border-box; /* Ensure padding and border are included in the dimensions */
 }
 
 /* Main Content Area */
@@ -127,6 +117,7 @@ iframe {
   border: 5px solid black;
   border-radius: 10px;
   box-sizing: border-box;
+  position: relative;
 }
 
 /* Face Content (Default: Dashboard) */
