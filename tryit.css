@@ -1,278 +1,270 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: black;
 }
 
 /* Header styling */
 .header {
-  width: 100vw;
-  height: 55px;
-  background-color: #808080; /* Grey background */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    width: 100vw;
+    height: 55px;
+    background-color: #808080; /* Grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .header button {
-  margin: 0 10px;
-  padding: 10px 20px;
-  background-color: black;
-  color: white;
-  border: 2px solid black;
-  border-radius: 10px;
-  cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .header button:hover {
-  background-color: #666;
+    background-color: #666;
 }
 
 /* Left Sidebar */
 .leftside {
-  width: 15vw; /* 15% of the viewport width */
-  height: calc(100vh - 55px); /* Full height minus header height */
-  background-color: grey; /* Grey color for the left sidebar */
-  display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  border: 5px solid black; /* 5px black border */
-  border-radius: 10px; /* Rounded corners with 10px radius */
-  box-sizing: border-box;
-  position: relative;
+    width: 15vw; /* 15% of the viewport width */
+    height: calc(100vh - 55px); /* Full height minus header height */
+    background-color: grey; /* Grey color for the left sidebar */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border: 5px solid black; /* 5px black border */
+    border-radius: 10px; /* Rounded corners with 10px radius */
+    box-sizing: border-box;
+    position: fixed;
+    top: 55px; /* Place sidebar directly below the header */
+    left: 0;
+    overflow: hidden;
 }
 
 .sidebar-content {
-  text-align: center; /* Center the content inside the sidebar */
-  flex-grow: 1; /* Make the content stretch from top to bottom */
-  height: 100%;
-  width: 99%;
-  color: white;
-  overflow: hidden;
-  position: relative;
+    text-align: center; /* Center the content inside the sidebar */
+    flex-grow: 1; /* Make the content stretch from top to bottom */
+    height: 99%;
+    width: 99%;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
 }
 
 /* Right Sidebar */
 .rightside {
-  width: 15vw; /* 15% of the viewport width */
-  height: calc(100vh - 55px); /* Full height minus header height */
-  background-color: grey; /* Grey color for the right sidebar */
-  display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  border: 5px solid black; /* 5px black border */
-  border-radius: 10px; /* Rounded corners with 10px radius */
-  box-sizing: border-box;
-  position: relative;
+    width: 15vw; /* 15% of the viewport width */
+    height: calc(100vh - 55px); /* Full height minus header height */
+    background-color: grey; /* Grey color for the right sidebar */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border: 5px solid black; /* 5px black border */
+    border-radius: 10px; /* Rounded corners with 10px radius */
+    box-sizing: border-box;
+    position: fixed;
+    top: 55px; /* Place sidebar directly below the header */
+    right: 0;
+    overflow: hidden;
 }
 
 .sidebar-content {
-  text-align: center; /* Center the content inside the sidebar */
-  flex-grow: 1; /* Make the content stretch from top to bottom */
-  height: 100%;
-  width: 99%;
-  color: white;
-  overflow: hidden;
-  position: relative;
+    text-align: center; /* Center the content inside the sidebar */
+    flex-grow: 1; /* Make the content stretch from top to bottom */
+    height: 100%;
+    width: 99%;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid black;
+    padding: 0;
 }
 
 button.sidebar-content {
-  padding: 5px;
-  overflow: hidden;
-  height: 10%;
-  width: 80px;
-  border: 1px solid black;
-  position: relative;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  top: 10%;
+    padding: 5px;
+    overflow: hidden;
+    height: 20%;
+    width: 80px;
+    border: 1px solid black;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    top: 10%;
+
 }
+
 
 /* Main Content Area */
 .main {
-  width: calc(100vw - 30vw);
-  height: calc(100vh - 55px);
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: black;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    width: calc(100vw - 30vw);
+    height: calc(100vh - 55px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 /* Face Content (Default: Dashboard) */
 .face {
-  display: none; /* Hide by default */
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    display: none; /* Hide by default */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 /* Face 1 - Dashboard (Default loaded) */
 .face1 {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  color: white;
-  text-align: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .body1 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  background-color: red; /* Red background */
-}
-
-.footer-links {
-  display: flex;
-  justify-content: space-around; /* Distribute the links evenly */
-  width: 100%;
-}
-
-.footer-links a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #333;
-}
-
-.footer-links a:hover {
-  background-color: #666;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: red; /* Red background */
 }
 
 .footer1 {
-  height: 50px;
-  background-color: #808080;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    height: 50px;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 /* Face 2 - Server Labs */
 .face2 {
-  background-color: black;
-  display: none; /* Hidden by default */
-  flex-direction: column;
-  justify-content: space-between;
-  color: white;
-  text-align: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    background-color: black;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .body2 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  background-color: blue; /* Blue background */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: blue; /* Blue background */
 }
 
 .footer2 {
-  height: 50px;
-  background-color: #808080;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    height: 50px;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 /* Face 3 - Configure Dash */
 .face3 {
-  background-color: black;
-  display: none; /* Hidden by default */
-  flex-direction: column;
-  justify-content: space-between;
-  color: white;
-  text-align: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    background-color: black;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .body3 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  background-color: green; /* Green background */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: green; /* Green background */
 }
 
 .footer3 {
-  height: 50px;
-  background-color: #808080;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    height: 50px;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 /* Face 4 - Mobile Labs */
 .face4 {
-  background-color: black;
-  display: none; /* Hidden by default */
-  flex-direction: column;
-  justify-content: space-between;
-  color: white;
-  text-align: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    background-color: black;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .body4 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  background-color: indigo; /* Indigo background */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: indigo; /* Indigo background */
 }
 
 .footer4 {
-  height: 50px;
-  background-color: #808080;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  box-sizing: border-box;
+    height: 50px;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
