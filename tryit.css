@@ -50,6 +50,7 @@ html, body {
   border: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
+  float: right;
 }
 
 .header button:hover {
