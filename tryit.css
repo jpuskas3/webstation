@@ -223,7 +223,7 @@ iframe {
   justify-content: center;
   align-items: center;
   border: 5px solid black;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   box-sizing: border-box;
 }
 
