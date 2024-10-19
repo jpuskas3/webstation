@@ -131,6 +131,7 @@ iframe {
   box-sizing: border-box;
   position: fixed;
   top: 55px;
+  left: 15vw;
 }
 
 /* Face Content (Default: Dashboard) */
