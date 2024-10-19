@@ -154,7 +154,10 @@ iframe {
   box-sizing: border-box;
   position: fixed;
   top: 55px;
+  bottom: 5px;
   left: 15vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /* Face Content (Default: Dashboard) */
