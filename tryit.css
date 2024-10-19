@@ -11,7 +11,8 @@ html, body {
 }
 
 /* Header styling */
-.header {
+/*Header external container position fixed to top*/
+.headerBlock {
   width: 100vw;
   height: 55px;
   background-color: #808080; /* Grey background */
@@ -23,6 +24,19 @@ html, body {
   box-sizing: border-box;
   position: fixed;
   top: 0;
+}
+
+/*Actual movable internat header*/
+.header {
+  width: 100vw;
+  height: 55px;
+  background-color: #808080; /* Grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .header button {
