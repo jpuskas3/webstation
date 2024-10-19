@@ -41,9 +41,7 @@ html, body {
   overflow-y: hidden;
   position: fixed;
   top: 0;
-  margin-top: 0;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0;
 }
 
 .header button {
@@ -53,6 +51,7 @@ html, body {
   border: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
+  margin: 5%;
 }
 
 .header button:hover {
