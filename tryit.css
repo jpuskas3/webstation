@@ -42,7 +42,7 @@ html, body {
 }
 
 .header button {
-  /*margin: 0 10%;*/
+  margin: 0 5%;
   padding: 10px 20px;
   background-color: black;
   color: white;
