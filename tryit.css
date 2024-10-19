@@ -160,7 +160,7 @@ iframe {
   bottom: 0px;
   left: 15vw;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 /* Face Content (Default: Dashboard) */
