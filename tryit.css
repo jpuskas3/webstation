@@ -51,7 +51,7 @@ html, body {
   border: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
-  margin: 5%;
+  margin: 2%;
 }
 
 .header button:hover {
