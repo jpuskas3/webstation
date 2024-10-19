@@ -43,14 +43,12 @@ html, body {
 }
 
 .header button {
-  margin: 3%;
   padding: 10px 20px;
   background-color: gold;
   color: black;
   border: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
-  bottom: 10px;
 }
 
 .header button:hover {
