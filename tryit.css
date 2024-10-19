@@ -71,7 +71,7 @@ html, body {
   position: fixed;
   top: 55px; /* Place sidebar directly below the header */
   left: 0;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .sidebar-content {
