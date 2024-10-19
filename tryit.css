@@ -24,6 +24,7 @@ html, body {
   box-sizing: border-box;
   position: fixed;
   top: 0;
+  overflow: hidden;
 }
 
 /*Actual movable internat header*/
