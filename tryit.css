@@ -40,6 +40,7 @@ html, body {
   box-sizing: border-box;
   overflow-x: scroll;
   overflow-y: hidden;
+  position: fixed;
 }
 
 .header button {
