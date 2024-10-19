@@ -41,6 +41,7 @@ html, body {
   overflow-x: scroll;
   overflow-y: hidden;
   position: fixed;
+  top: 0;
 }
 
 .header button {
