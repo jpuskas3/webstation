@@ -69,9 +69,10 @@ html, body {
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
   position: fixed;
-  top: 55px; /* Place sidebar directly below the header */
+  top: 60px; /* Place sidebar directly below the header */
   left: 0;
   bottom: 0;
+  overflow-y: scroll;
 }
 
 .sidebar-content {
@@ -96,9 +97,9 @@ html, body {
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
   position: fixed;
-  top: 55px; /* Place sidebar directly below the header */
+  top: 60px; /* Place sidebar directly below the header */
   right: 0;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .sidebar-content {
