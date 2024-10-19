@@ -129,8 +129,8 @@ iframe {
   border: 5px solid black;
   border-radius: 10px;
   box-sizing: border-box;
-  /*position: relative;
-  top: 55px;*/
+  position: fixed;
+  top: 55px;
 }
 
 /* Face Content (Default: Dashboard) */
