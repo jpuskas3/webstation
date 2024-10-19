@@ -89,7 +89,7 @@ html, body {
 /* Right Sidebar */
 .rightside {
   width: 15vw; /* 15% of the viewport width */
-  height: calc(100vh - 55px); /* Full height minus header height */
+  height: 100%; /* Full height minus header height */
   background-color: grey; /* Grey color for the right sidebar */
   display: flex;
   justify-content: center; /* Center content horizontally */
