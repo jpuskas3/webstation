@@ -45,14 +45,12 @@ html, body {
 }
 
 .header button {
-  padding: 10px 20px;
+  padding: 10px;
   background-color: gold;
   color: black;
   border: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
-  left: 50px;
-  padding: 20px;
 }
 
 .header button:hover {
