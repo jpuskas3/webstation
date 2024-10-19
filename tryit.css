@@ -180,9 +180,11 @@ iframe {
   justify-content: space-between;
   color: white;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid blue;
   border-radius: 10px;
   box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .body1 {
@@ -232,9 +234,11 @@ iframe {
   justify-content: space-between;
   color: white;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid blue;
   border-radius: 10px;
   box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .body2 {
@@ -266,9 +270,11 @@ iframe {
   justify-content: space-between;
   color: white;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid blue;
   border-radius: 10px;
   box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .body3 {
@@ -300,9 +306,11 @@ iframe {
   justify-content: space-between;
   color: white;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid blue;
   border-radius: 10px;
   box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .body4 {
