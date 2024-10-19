@@ -21,8 +21,6 @@ html, body {
   border: 5px solid black;
   border-radius: 10px;
   box-sizing: border-box;
-  position: relative;
-  z-index: 1000; /* Ensure it stays on top */
 }
 
 .header button {
@@ -51,18 +49,16 @@ html, body {
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
   position: relative;
-  z-index: 500;
-  flex-shrink: 0;
 }
 
 .sidebar-content {
   text-align: center; /* Center the content inside the sidebar */
   flex-grow: 1; /* Make the content stretch from top to bottom */
-  height: 99%;
+  height: 100%;
   width: 99%;
-  padding: 20px;
   color: white;
   overflow: hidden;
+  position: relative;
 }
 
 /* Right Sidebar */
@@ -77,8 +73,6 @@ html, body {
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
   position: relative;
-  z-index: 500;
-  flex-shrink: 0;
 }
 
 .sidebar-content {
@@ -89,8 +83,6 @@ html, body {
   color: white;
   overflow: hidden;
   position: relative;
-  border: 1px solid black;
-  padding: 0;
 }
 
 button.sidebar-content {
@@ -117,7 +109,6 @@ button.sidebar-content {
   border: 5px solid black;
   border-radius: 10px;
   box-sizing: border-box;
-  position: relative;
 }
 
 /* Face Content (Default: Dashboard) */
