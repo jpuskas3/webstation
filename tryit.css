@@ -65,21 +65,21 @@ html, body {
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  border: 5px solid black; /* 5px black border */
+  border: 5px solid blue; /* 5px black border */
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
   position: fixed;
   top: 60px; /* Place sidebar directly below the header */
   left: 0;
-  bottom: 20px;
+  bottom: 5px;
   overflow: hidden;
 }
 
 .sidebar-content {
   text-align: center; /* Center the content inside the sidebar */
   flex-grow: 1; /* Make the content stretch from top to bottom */
-  height: 99%;
-  width: 99%;
+  height: 100%;
+  width: 100%;
   padding: 20px;
   color: white;
   overflow-y: scroll;
@@ -89,18 +89,18 @@ html, body {
 /* Right Sidebar */
 .rightside {
   width: 15vw; /* 15% of the viewport width */
-  height: 100%; /* Full height minus header height */
+  height: auto; /* Full height minus header height */
   background-color: grey; /* Grey color for the right sidebar */
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  border: 5px solid black; /* 5px black border */
+  border: 5px solid blue; /* 5px black border */
   border-radius: 10px; /* Rounded corners with 10px radius */
   box-sizing: border-box;
   position: fixed;
   top: 60px; /* Place sidebar directly below the header */
   right: 0;
-  bottom: 20px;
+  bottom: 5px;
   overflow: hidden;
 }
 
