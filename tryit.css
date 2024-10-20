@@ -26,6 +26,7 @@ html, body {
   position: fixed;
   top: 0;
   overflow: hidden;
+  border: 5px solid black;
 }
 
 /*Actual movable internat header*/
