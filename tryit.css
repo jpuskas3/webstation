@@ -8,6 +8,8 @@ html, body {
   align-items: flex-start;
   flex-direction: column;
   background-color: blue;
+  border: 5px solid blue;
+  border-radius: 10px;
 }
 
 /* Header styling */
@@ -150,7 +152,6 @@ iframe {
   justify-content: center;
   align-items: flex-start;
   background-color: black;
-  border: 5px solid blue;
   border-radius: 10px;
   box-sizing: border-box;
   position: fixed;
