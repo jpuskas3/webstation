@@ -32,8 +32,8 @@ html, body {
   height: 60px;
   background-color: #808080; /* Grey background */
   display: flex;
-  /*justify-content: center;*/
-  text-align: center;
+  justify-content: center;
+  /*text-align: center;*/
   align-items: center;
   border: 5px solid blue;
   border-radius: 10px;
