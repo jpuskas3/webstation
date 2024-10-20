@@ -30,7 +30,7 @@ body {
   float: left;
   border: 5px solid black;
   border-radius: 20px;
-  width: 33.33%;
+  width: 99%;
   padding: 10px;
   height: 400px; /* Should be removed. Only for demonstration */
   overflow: hidden;
