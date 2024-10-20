@@ -25,6 +25,7 @@ html, body {
   box-sizing: border-box;
   position: fixed;
   top: 0;
+  left: 0;
   overflow: hidden;
   border: 5px solid black;
 }
