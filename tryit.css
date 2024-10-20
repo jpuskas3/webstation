@@ -27,7 +27,6 @@ html, body {
   top: 0;
   left: 0;
   overflow: hidden;
-  border: 5px solid black;
 }
 
 /*Actual movable internat header*/
@@ -38,7 +37,6 @@ html, body {
   display: flex;
   text-align: center;
   align-items: center;
-  border: 5px solid blue;
   border-radius: 10px;
   box-sizing: border-box;
   overflow-x: scroll;
