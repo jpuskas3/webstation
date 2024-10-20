@@ -7,7 +7,7 @@ html, body {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  background-color: black;
+  background-color: blue;
 }
 
 /* Header styling */
