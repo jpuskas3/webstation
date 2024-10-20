@@ -23,7 +23,6 @@ html, body {
   box-sizing: border-box;
   position: fixed;
   top: 0;
-  left: 50px;
   overflow: hidden;
 }
 
@@ -42,7 +41,7 @@ html, body {
   overflow-y: hidden;
   position: fixed;
   top: 0;
- /* left: 50px*/
+  left: 50px;
 }
 
 .header button {
