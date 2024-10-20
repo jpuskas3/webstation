@@ -329,3 +329,38 @@ iframe {
   border-radius: 10px;
   box-sizing: border-box;
 }
+
+/* Face 5 - About */
+.face5 {
+  background-color: black;
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.body5 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: grey; /* grey background */
+}
+
+.footer5 {
+  height: 50px;
+  background-color: #808080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
