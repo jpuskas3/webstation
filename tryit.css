@@ -43,6 +43,7 @@ html, body {
   overflow-y: hidden;
   position: fixed;
   top: 0;
+  border: 5px solid blue;
 }
 
 .header button {
