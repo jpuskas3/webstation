@@ -23,6 +23,7 @@ html, body {
   box-sizing: border-box;
   position: fixed;
   top: 0;
+  left: 50px;
   overflow: hidden;
 }
 
