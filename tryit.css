@@ -41,6 +41,7 @@ html, body {
   overflow-y: hidden;
   position: fixed;
   top: 0;
+ /* left: 50px*/
 }
 
 .header button {
