@@ -50,7 +50,7 @@ html, body {
   border: 2px solid black;
   border-radius: 10px;
   cursor: pointer;
-  margin: 7%;
+  margin: 5%;
 }
 
 .header button:hover {
