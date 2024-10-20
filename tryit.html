@@ -15,6 +15,7 @@
   <button id="button2">Labs</button>
   <button id="button3">WebTools</button>
   <button id="button4">Mobile</button>
+  <button id="button5">About</button>
  </div>
 </div>
 <!-- Left Sidebar -->
@@ -89,7 +90,21 @@
       </div>
     </div>
   </div>
-
+  
+  <!-- About us page (Face 5) Content Wrapper -->
+  <div class="face face5" title="Face 5: About">
+    <div class="body5" title="Body 5: About Content">
+    </div>
+    <div class="footer footer5" title="Footer 5: About Footer">
+      <div class="footer-links">
+        <a href="nothing yet" target="iframe5">dont</a>
+        <a href="nothing yet" target="iframe5">know</a>
+        <a href="nothing yet" target="iframe5">havent</a>
+        <a href="nothing yet" target="iframe5">got here.</a>
+      </div>
+    </div>
+  </div>
+    
 </div>
 
 <!-- Right Sidebar -->
@@ -120,6 +135,7 @@
     document.querySelector('.face2').style.display = 'none';
     document.querySelector('.face3').style.display = 'none';
     document.querySelector('.face4').style.display = 'none';
+    document.querySelector('.face5').style.display = 'none';
 
     // Show the selected face
     document.querySelector('.face' + faceNumber).style.display = 'flex';
@@ -140,6 +156,10 @@
 
   document.getElementById('button4').addEventListener('click', function() {
     showFace(4);
+  });
+  
+  document.getElementById('button5').addEventListener('click', function() {
+    showFace(5);
   });
 </script>
 
