@@ -14,7 +14,7 @@ html, body {
 /*Header external container position fixed to top*/
 .headerBlock {
   width: 100vw;
-  height: 60px;
+  height: 65px;
   background-color: #808080; /* Grey background */
   display: flex;
   text-align: center;
@@ -29,7 +29,7 @@ html, body {
 /*Actual movable internat header*/
 .header {
   width: 100vw;
-  height: 60px;
+  height: 65px;
   background-color: #808080; /* Grey background */
   display: flex;
   text-align: center;
